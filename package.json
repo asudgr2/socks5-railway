@@ -1,0 +1,12 @@
+{
+  "name": "private-socks5-proxy",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Authenticated, TCP-only SOCKS5 proxy for Railway",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "start": "node src/server.js"
+  }
+}
